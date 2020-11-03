@@ -1,3 +1,38 @@
-body {
-  background-color: #fcb0f8;
+:root {
+  --suurus: 150px;
+}
+
+body, html {
+  background-color: #FCB0F8;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 120px;
+}
+
+.nupp {
+  position: absolute;
+  top: calc(50% - var(--suurus) / 2);
+  background-color: red;
+  height: var(--suurus);
+  width: var(--suurus);
+  border-radius: 10px;
+}
+
+.vasakule {
+  left: 20px;
+}
+
+.paremale {
+  right: 20px;
+}
+
+.nokkmuts {
+  position: absolute;
+  top: calc(50% - 222px);
+  left: calc(50% - 249px);
+
+}
+
+h1 {
+  position: absolute;
+  z-index: 2;
 }
