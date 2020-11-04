@@ -33,6 +33,6 @@ body, html {
 }
 
 h1 {
-  position: absolute;
+  position: fixed;
   z-index: 2;
 }
