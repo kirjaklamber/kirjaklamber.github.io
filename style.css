@@ -11,7 +11,7 @@ body, html {
 .nupp {
   position: absolute;
   top: calc(50% - var(--suurus) / 2);
-  background-color: red;
+  background-color: #ff99ff;
   height: var(--suurus);
   width: var(--suurus);
   border-radius: 10px;
