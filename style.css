@@ -3,9 +3,32 @@
 }
 
 body, html {
-  background-color: #FCB0F8;
-  font-family: 'Raleway', sans-serif;
-  font-size: 100px;
+  background-color: #00CC66;
+  font-family: 'Aubrey', sans-serif;
+  height: 100%;
+  size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.karu {
+  position: absolute;
+  top: 50%;
+  margin-top: -25%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+h1 {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  white-space: pre;
+  transform: skew(-10deg);
+  color: #FF0000;
+  font-size: 8vmin;
+  line-height: 8vmin;
 }
 
 .nupp {
