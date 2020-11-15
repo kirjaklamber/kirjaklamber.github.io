@@ -3,7 +3,7 @@
 }
 
 body, html {
-  background-color: #00CC66;
+  background: linear-gradient(#FF55AA 0%, #FFFFFF 100%);
   font-family: 'Aubrey', sans-serif;
   height: 100%;
   size: 100%;
